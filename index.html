@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> -->
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    
+    <!-- иконка сайта -->
+    <link rel="icon" type="image/png" href="assets/images/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicon/site.webmanifest">
+
+    <!-- слайдер с Slick JS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.css" rel="stylesheet"/> -->
+
+    <title>tajam</title>
+</head>
+<body>
+
+    <header class="header" id="header">  <!--  |  fixed|  active  -->
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo"  data-scroll="#intro">
+                    <img class="logo__img" src="assets/images/logo_edges.png" alt="">
+                    <div class="logo__name">tajam</div>
+                </div>
+
+                <div class="navbar" id="navbar">  <!--  |  active  -->
+                    <a class="nav__link" id="navlin" href="#intro" data-scroll="#intro">Home</a>  <!--  |  active  -->
+                    <a class="nav__link" id="navlin" href="#about" data-scroll="#about">About</a>
+                    <a class="nav__link" id="navlin" href="#expertise" data-scroll="#expertise">Expertise</a>
+                    <a class="nav__link" id="navlin" href="#teams" data-scroll="#teams">Teams</a>
+                    <a class="nav__link" id="navlin" href="#works" data-scroll="#works">Works</a>
+                    <a class="nav__link" id="navlin" href="#reviews" data-scroll="#reviews">People Say</a>
+                    <a class="nav__link" id="navlin" href="#contact" data-scroll="#contact">Contact</a>
+                    <!-- <button id="theme-toggle"><img src="assets/images/intro/moon_night_icon.png" alt=""></button> -->
+                </div>
+                
+                <button class="nav-toggle" id="nav-toggle" type="button">  <!--  |  active  -->
+                    <span class="nav-toggle__item">Menu</span>
+                </button>
+            </div>  <!-- /.header__inner -->
+        </div>  <!-- /.container -->
+    </header>  <!-- /.header -->
+
+    <div class="page">
+
+        <div class="intro  sect"  id="intro">
+            <div class="container">
+                <!-- <div class="intro__inner  active" data-slide="1">
+
+                    <h1 class="intro__title">We Are Awesome Creative Agency</h1>
+                    
+                    <p class="intro__text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
+                        quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh
+                        vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
+
+                    <a class="btn" href="#">Learn More</a>
+                </div>
+
+                <div class="intro__inner" data-slide="2">
+
+                    <h1 class="intro__title">We Are Awesome Creative Agency</h1>
+
+                    <a class="btn" href="#">Learn More</a>
+                </div>
+                
+                <div class="intro__inner" data-slide="3">
+                    
+                    <p class="intro__text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
+                        quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh
+                        vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
+
+                    <a class="btn" href="#">Learn More</a>
+                </div>
+                
+                <div class="intro__inner" data-slide="4">
+
+                    <h1 class="intro__title">We Are Awesome Creative Agency</h1>
+                    
+                    <p class="intro__text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
+                        quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh
+                        vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
+                </div> -->
+                
+                <div class="intro__inner">
+                    <div class="slider__content active" data-slide="1">
+    
+                        <h1 class="intro__title">We Are Awesome Creative Agency</h1>
+                        
+                        <p class="intro__text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
+                            quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh
+                            vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
+    
+                        <a class="btn" href="#">Learn More</a>
+                    </div>
+    
+                    <div class="slider__content" data-slide="2">
+    
+                        <h1 class="intro__title">We Are Awesome Creative Agency</h1>
+    
+                        <a class="btn" href="#">Learn More</a>
+                    </div>
+                    
+                    <div class="slider__content" data-slide="3">
+                        
+                        <p class="intro__text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
+                            quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh
+                            vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
+    
+                        <a class="btn" href="#">Learn More</a>
+                    </div>
+                    
+                    <div class="slider__content" data-slide="4">
+    
+                        <h1 class="intro__title">We Are Awesome Creative Agency</h1>
+                        
+                        <p class="intro__text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
+                            quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh
+                            vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
+                    </div>
+                </div>
+
+
+                <div class="slider">
+                    <div class="slider__inner">
+                        <a class="slider__item  active" href="#" data-slide="1"></a>
+                        <a class="slider__item" href="#" data-slide="2"></a>
+                        <a class="slider__item" href="#" data-slide="3"></a>
+                        <a class="slider__item" href="#" data-slide="4"></a>
+                    </div>
+                </div>
+            </div>  <!-- /.container -->
+        </div>  <!-- /.intro -->
+
+        <section class="section  sect" id="about">
+            <div class="container">
+                <div class="story__inner">
+                    
+                    <img class="story__img" src="assets/images/story/logo__color.png" alt="">
+                    
+                    <div class="story__content">
+                        <h2 class="story__title">Our Story</h2>
+                        <p class="story__text">
+                            This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus
+                            <br><br>
+                            Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                        </p>
+                        <!-- <p class="story__text"></p> -->
+                        
+                        <a class="btn  btn--marginNone" href="#">Learn More</a>
+                    </div>
+
+                </div>  <!-- /.story__inner -->
+            </div>  <!-- /.container -->
+        </section>  <!-- /.section -> .story -->
+
+        <section class="section  section--video">
+            <div class="container">
+                <div class="video__inner">
+
+                    <div class="v__content">
+                        <div class="v__circle">
+                            <a class="v__icon material-symbols-outlined" href="#">change_history</a>
+                            <!-- <img class="v__icon" src="assets/image/images/triangle.png"> -->
+                        </div>
+
+                        <video class="video" controls>
+                            <source src="assets/video/test_vid.mp4" type="video/mp4">
+                        </video>
+
+                        <div class="v__title">Watch our story</div>
+                    </div>
+
+
+                </div>  <!-- /.video__inner -->
+            </div>  <!-- /.container -->
+        </section>  <!-- /.section -> .video -->
+
+        <section class="section  sect" id="expertise">
+            <div class="container">
+                <div class="section__header">
+                    <div class="section__title">Expertise</div>
+                    <div class="section__subtitle">Lorem ipsum dolor sit amet proin gravida nibh vel velit</div>
+                </div>
+
+                <div class="expertise__inner">
+
+                    <div class="expertise__item  exp__item--1">
+                        <img class="expertise__img" src="assets/images/expertise/expertise_img_01.png" alt="">
+                        <div class="expertise__title">Web Design & Development</div>
+                        <div class="expertise__text">
+                            This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.
+                        </div>
+                    </div>  <!-- /.expertise__item 01 -->
+
+                    <div class="expertise__item  exp__item--2">
+                        <img class="expertise__img" src="assets/images/expertise/expertise_img_02.png" alt="">
+                        <div class="expertise__title">Branding Identity</div>
+                        <div class="expertise__text">
+                            This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.
+                        </div>
+                    </div>  <!-- /.expertise__item 02 -->
+
+                    <div class="expertise__item  exp__item--3">
+                        <img class="expertise__img" src="assets/images/expertise/expertise_img_03.png" alt="">
+                        <div class="expertise__title">Mobile App</div>
+                        <div class="expertise__text">
+                            This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.
+                        </div>
+                    </div>  <!-- /.expertise__item 03 -->
+
+                    <div class="expertise__item  exp__item--4">
+                        <img class="expertise__img" src="assets/images/expertise/expertise_img_04.png" alt="">
+                        <div class="expertise__title">Search Engine Optimization</div>
+                        <div class="expertise__text">
+                            This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.
+                        </div>
+                    </div>  <!-- /.expertise__item 04 -->
+
+                    <div class="expertise__item  exp__item--5">
+                        <img class="expertise__img" src="assets/images/expertise/expertise_img_05.png" alt="">
+                        <div class="expertise__title">Game Development</div>
+                        <div class="expertise__text">
+                            This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.
+                        </div>
+                    </div>  <!-- /.expertise__item 05 -->
+
+                    <div class="expertise__item  exp__item--6">
+                        <img class="expertise__img" src="assets/images/expertise/expertise_img_06.png" alt="">
+                        <div class="expertise__title">Made With Love</div>
+                        <div class="expertise__text">
+                            This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.
+                        </div>
+                    </div>  <!-- /.expertise__item 06 -->
+
+                </div>  <!-- /.expertise__inner -->
+            </div>  <!-- /.container -->
+        </section>  <!-- /.section -> .expertise -->
+
+        <section class="section  sect  section--team" id="teams">
+            <div class="container">
+                <div class="section__header">
+                    <div class="section__title--team">Meet Our Amazing Team</div>
+                    <div class="section__subtitle--team">Lorem ipsum dolor sit amet proin gravida nibh vel velit</div>
+                </div>
+
+                <div class="team">
+
+                    <div class="team__item">
+                        <div class="team__inner">
+                            <div class="team__img">
+                                <img src="assets/images/team/teammate01.jpg" alt="">
+                            </div>
+
+                            <div class="team__social">
+                                <div class="messengers">
+                                    <a class="mes__item  mes_it--bord_tl  mes_it--rad_tl" href="#" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a class="mes__item  mes_it--bord_tr  mes_it--rad_tr" href="#" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </div>
+
+                                <div class="messengers">
+                                    <a class="mes__item  mes_it--bord_bl  mes_it--rad_bl" href="#" target="_blank">
+                                        <i class="fab fa-pinterest-p"></i>
+                                    </a>
+                                    <a class="mes__item  mes_it--bord_br  mes_it--rad_br" href="#" target="_blank">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a class="team__info" href="#">
+                            <div class="team__title">Semf Ucuk</div>
+                            <div class="team__subtitle">Ceo & Founder</div>
+                        </a>
+                    </div>  <!-- /.team__item 01 -->
+
+                    <div class="team__item">
+                        <div class="team__inner">
+                            <div class="team__img">
+                                <img src="assets/images/team/teammate02.jpg" alt="">
+                            </div>
+
+                            <div class="team__social">
+                                <div class="messengers">
+                                    <a class="mes__item  mes_it--bord_tl  mes_it--rad_tl" href="#" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a class="mes__item  mes_it--bord_tr  mes_it--rad_tr" href="#" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </div>
+
+                                <div class="messengers">
+                                    <a class="mes__item  mes_it--bord_bl  mes_it--rad_bl" href="#" target="_blank">
+                                        <i class="fab fa-pinterest-p"></i>
+                                    </a>
+                                    <a class="mes__item  mes_it--bord_br  mes_it--rad_br" href="#" target="_blank">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a class="team__info" href="#">
+                            <div class="team__title">Dik Adalin</div>
+                            <div class="team__subtitle">Engineering</div>
+                        </a>
+                    </div>  <!-- /.team__item 02 -->
+
+                    <div class="team__item">
+                        <div class="team__inner">
+                            <div class="team__img">
+                                <img src="assets/images/team/teammate01.jpg" alt="">
+                            </div>
+
+                            <div class="team__social">
+                                <div class="messengers">
+                                    <a class="mes__item  mes_it--bord_tl  mes_it--rad_tl" href="#" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a class="mes__item  mes_it--bord_tr  mes_it--rad_tr" href="#" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </div>
+
+                                <div class="messengers">
+                                    <a class="mes__item  mes_it--bord_bl  mes_it--rad_bl" href="#" target="_blank">
+                                        <i class="fab fa-pinterest-p"></i>
+                                    </a>
+                                    <a class="mes__item  mes_it--bord_br  mes_it--rad_br" href="#" target="_blank">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a class="team__info" href="#">
+                            <div class="team__title">Jeng Kol</div>
+                            <div class="team__subtitle">Designer</div>
+                        </a>
+                    </div>  <!-- /.team__item 03 -->
+
+                    <div class="team__item">
+                        <div class="team__inner">
+                            <div class="team__img">
+                                <img src="assets/images/team/teammate03.jpg" alt="">
+                            </div>
+
+                            <div class="team__social">
+                                <div class="messengers">
+                                    <a class="mes__item  mes_it--bord_tl  mes_it--rad_tl" href="#" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a class="mes__item  mes_it--bord_tr  mes_it--rad_tr" href="#" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </div>
+
+                                <div class="messengers">
+                                    <a class="mes__item  mes_it--bord_bl  mes_it--rad_bl" href="#" target="_blank">
+                                        <i class="fab fa-pinterest-p"></i>
+                                    </a>
+                                    <a class="mes__item  mes_it--bord_br  mes_it--rad_br" href="#" target="_blank">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a class="team__info" href="#">
+                            <div class="team__title">Pet Romak</div>
+                            <div class="team__subtitle">Marketing</div>
+                        </a>
+                    </div>  <!-- /.team__item 04 -->
+
+
+                </div>  <!-- /.team -->
+                
+            </div>  <!-- /.container -->
+
+            <div class="section__footer">
+                <div class="section__text">Become part of our dream team, let’s join us ! </div>
+                <a class="btn" href="#">We Are Hiring</a>
+            </div>
+
+        </section>  <!-- /.section -> .team -->
+
+        <section class="section  sect" id="works">
+            <div class="container">
+                <div class="works__header">
+                    <div class="wh__title">Our Works</div>
+                    <a class="wh__subtitle" href="#">
+                        <i class="fas fa-chevron-right  wh__chevron--one  wh__chevron--adaptivPhone"></i>
+                        <i class="fas fa-chevron-right  wh__chevron--two  wh__chevron--adaptivPhone"></i>
+                        <i class="fas fa-chevron-right  wh__chevron--three  wh__chevron--adaptivPhone"></i>
+                        <div class="wh__stText">See All Project in dribbble</div>
+                        <i class="fas fa-chevron-right  wh__chevron--one"></i>
+                        <i class="fas fa-chevron-right  wh__chevron--two"></i>
+                        <i class="fas fa-chevron-right  wh__chevron--three"></i>
+                    </a>
+                </div>
+            </div>  <!-- /.container -->
+            
+            <div class="works__works">
+                <div class="works__column">
+                    <div class="works__item">
+                        <img class="works__img" src="assets/images/works/work.jpg" alt="">
+                        <div class="works__info">
+                            <div class="works__title">creatively designed</div>
+                            <div class="works__text">Lorem ipsum dolor sit</div>
+                        </div>
+                    </div>  <!-- /.works__item 1-1 -->
+
+                    <div class="works__item">
+                        <img class="works__img" src="assets/images/works/work.jpg" alt="">
+                        <div class="works__info">
+                            <div class="works__title">creatively designed</div>
+                            <div class="works__text">Lorem ipsum dolor sit</div>
+                        </div>
+                    </div>  <!-- /.works__item 1-2 -->
+                </div>  <!-- /.works__column -1- -->
+
+                <div class="works__column">
+                    <div class="works__item">
+                        <img class="works__img" src="assets/images/works/work.jpg" alt="">
+                        <div class="works__info">
+                            <div class="works__title">creatively designed</div>
+                            <div class="works__text">Lorem ipsum dolor sit</div>
+                        </div>
+                    </div>  <!-- /.works__item 2-1 -->
+
+                    <div class="works__item">
+                        <img class="works__img" src="assets/images/works/work.jpg" alt="">
+                        <div class="works__info">
+                            <div class="works__title">creatively designed</div>
+                            <div class="works__text">Lorem ipsum dolor sit</div>
+                        </div>
+                    </div>  <!-- /.works__item 2-2 -->
+                </div>  <!-- /.works__column -2- -->
+
+                <div class="works__column">
+                    <div class="works__item">
+                        <img class="works__img" src="assets/images/works/work.jpg" alt="">
+                        <div class="works__info">
+                            <div class="works__title">creatively designed</div>
+                            <div class="works__text">Lorem ipsum dolor sit</div>
+                        </div>
+                    </div>  <!-- /.works__item 3-1 -->
+
+                    <div class="works__item">
+                        <img class="works__img" src="assets/images/works/work.jpg" alt="">
+                        <div class="works__info">
+                            <div class="works__title">creatively designed</div>
+                            <div class="works__text">Lorem ipsum dolor sit</div>
+                        </div>
+                    </div>  <!-- /.works__item 3-2 -->
+                </div>  <!-- /.works__column -3- -->
+                
+                <div class="works__column">
+                    <div class="works__item">
+                        <img class="works__img" src="assets/images/works/work.jpg" alt="">
+                        <div class="works__info">
+                            <div class="works__title">creatively designed</div>
+                            <div class="works__text">Lorem ipsum dolor sit</div>
+                        </div>
+                    </div>  <!-- /.works__item 4-1 -->
+
+                    <div class="works__item">
+                        <img class="works__img" src="assets/images/works/work.jpg" alt="">
+                        <div class="works__info">
+                            <div class="works__title">creatively designed</div>
+                            <div class="works__text">Lorem ipsum dolor sit</div>
+                        </div>
+                    </div>  <!-- /.works__item 4-2 -->
+                </div>  <!-- /.works__column -4- -->
+
+                <div class="works__column">
+                    <div class="works__item">
+                        <img class="works__img" src="assets/images/works/work.jpg" alt="">
+                        <div class="works__info">
+                            <div class="works__title">creatively designed</div>
+                            <div class="works__text">Lorem ipsum dolor sit</div>
+                        </div>
+                    </div>  <!-- /.works__item 5-1 -->
+
+                    <div class="works__item">
+                        <img class="works__img" src="assets/images/works/work.jpg" alt="">
+                        <div class="works__info">
+                            <div class="works__title">creatively designed</div>
+                            <div class="works__text">Lorem ipsum dolor sit</div>
+                        </div>
+                    </div>  <!-- /.works__item 5-2 -->
+                </div>  <!-- /.works__column -5- -->
+
+                <div class="works__column">
+                    <div class="works__item">
+                        <img class="works__img" src="assets/images/works/work.jpg" alt="">
+                        <div class="works__info">
+                            <div class="works__title">creatively designed</div>
+                            <div class="works__text">Lorem ipsum dolor sit</div>
+                        </div>
+                    </div>  <!-- /.works__item 6-1 -->
+
+                    <div class="works__item">
+                        <img class="works__img" src="assets/images/works/work.jpg" alt="">
+                        <div class="works__info">
+                            <div class="works__title">creatively designed</div>
+                            <div class="works__text">Lorem ipsum dolor sit</div>
+                        </div>
+                    </div>  <!-- /.works__item 6-2 -->
+                </div>  <!-- /.works__column -6- -->
+            </div>  <!-- /.works__works -->
+
+            <div class="section__footer">
+                <a class="btn" href="#">Load More</a>
+            </div>
+        </section>  <!-- /.section -> .works -->
+        
+
+
+        <section class="section  sect  section--reviews" id="reviews">
+            <div class="container">
+                <div class="section__header"> <!--  section__header--margNone  -->
+                    <div class="section__img"></div>
+                    <img class="section__img" src="assets/images/reviews/reviews_phrase.png" alt="">
+                    
+                </div>
+
+                
+                <!-- /* WORK ZONE  WORK ZONE  WORK ZONE  WORK ZONE  WORK ZONE */ -->
+                <!-- /* WORK ZONE  WORK ZONE  WORK ZONE  WORK ZONE  WORK ZONE  WORK ZONE  WORK ZONE */ -->
+                <!-- /* WORK ZONE  WORK ZONE  WORK ZONE  WORK ZONE  WORK ZONE  WORK ZONE  WORK ZONE  WORK ZONE  WORK ZONE */ -->
+                <!-- <div slider-for class="reviews"> -->
+                    <!-- <div> -->
+                        <!-- <div class="reviews__item">
+                            <div class="reviews__text">
+                                This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.
+                            </div>
+                            <div class="reviews__author">
+                                <div class="reviews__name">Jane Galadriel</div>
+                                <div class="reviews__prof">Ceo Tengkurep</div>
+                            </div>
+                        </div> -->
+                    <!-- </div> -->
+
+                    <!-- <div class="reviews__item">
+                        <div class="reviews__text">
+                            This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.
+                        </div>
+                        <div class="reviews__author">
+                            <div class="reviews__name">Dane Galadriel</div>
+                            <div class="reviews__prof">Ceo Tengkurep</div>
+                        </div>
+                    </div>
+
+                    <div class="reviews__item">
+                        <div class="reviews__text">
+                            This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.
+                        </div>
+                        <div class="reviews__author">
+                            <div class="reviews__name">Hane Galadriel</div>
+                            <div class="reviews__prof">Ceo Tengkurep</div>
+                        </div>
+                    </div>
+
+                    <div class="reviews__item">
+                        <div class="reviews__text">
+                            This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.
+                        </div>
+                        <div class="reviews__author">
+                            <div class="reviews__name">Dane Galadriel</div>
+                            <div class="reviews__prof">Ceo Tengkurep</div>
+                        </div>
+                    </div>
+
+                    <div class="reviews__item">
+                        <div class="reviews__text">
+                            This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.
+                        </div>
+                        <div class="reviews__author">
+                            <div class="reviews__name">Hane Galadriel</div>
+                            <div class="reviews__prof">Ceo Tengkurep</div>
+                        </div>
+                    </div> -->
+
+                <!-- </div> -->
+                
+                <!-- <div slider-nav class="testers__slider"> -->
+                    <!-- <a class="slid__btn" href="">btn</a> -->
+                    <!-- <div> -->
+                        <!-- <a class="slid__btn  slid__btn--prev" href="">Prev</a> -->
+                        <!-- <a class="slid__btn  slid__btn--next" href="">Next</a> -->
+    
+
+
+                        <!-- <div>
+                            <div class="slid__item">
+                                <img class="slid__photo" src="assets/images/reviews/tester01.png">
+                            </div>
+                        </div> -->
+
+                        <!-- <div>
+                            <div class="slid__item">
+                                <img class="slid__photo" src="assets/images/reviews/tester01.png">
+                            </div>
+                        </div> -->
+                        <!-- <div>
+                            <div class="slid__item">
+                                <img class="slid__photo  slid__photo--active" src="assets/images/reviews/tester01.png">
+                            </div>
+                        </div> -->
+                        <!-- <div>
+                            <div class="slid__item">
+                                <img class="slid__photo" src="assets/images/reviews/tester01.png">
+                            </div>
+                        </div> -->
+                        <!-- <div>
+                            <div class="slid__item">
+                                <img class="slid__photo  slid__photo--active" src="assets/images/reviews/tester01.png">
+                            </div>
+                        </div> -->
+                        
+                    <!-- </div> -->
+                    <!-- </div> -->
+
+                    <!-- <a class="slid__btn" href="">btn</a> -->
+                <!-- </div> /.testers__slider -->
+
+
+
+
+
+                <div class="section__reviews">
+                    <div class="reviews__inner">
+                      <!-- Верхняя часть (отзыв) -->
+                      <div class="reviews__info">
+                        <div class="reviews__text">Text of the person's comment</div>
+                        <div class="reviews__name">Commentator Name</div>
+                        <div class="reviews__profession">Commentator's Profession</div>
+                      </div>
+                  
+                      <!-- Нижняя часть (фото + кнопки) -->
+                      <div class="reviews__photo">
+                        <button class="reviews__arrow left">&lt;</button>
+                        <div class="reviews__gallery">
+                          <img class="reviews__img active" src="assets/images/reviews/tester1.png" alt="commentator" data-index="0"/>
+                          <img class="reviews__img" src="assets/images/reviews/tester2.png" alt="commentator" data-index="1"/>
+                          <img class="reviews__img" src="assets/images/reviews/tester3.png" alt="commentator" data-index="2"/>
+                          <img class="reviews__img" src="assets/images/reviews/tester4.png" alt="commentator" data-index="3"/>
+                          <img class="reviews__img" src="assets/images/reviews/tester5.png" alt="commentator" data-index="4"/>
+                          <img class="reviews__img" src="assets/images/reviews/tester6.png" alt="commentator" data-index="5"/>
+                          <img class="reviews__img" src="assets/images/reviews/tester7.png" alt="commentator" data-index="6"/>
+                          <img class="reviews__img" src="assets/images/reviews/tester8.png" alt="commentator" data-index="7"/>
+                          <img class="reviews__img" src="assets/images/reviews/tester9.png" alt="commentator" data-index="8"/>
+                          <img class="reviews__img" src="assets/images/reviews/tester10.png" alt="commentator" data-index="9"/>
+                        </div>
+                        <button class="reviews__arrow right">&gt;</button>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+                <!-- /* WORK ZONE  WORK ZONE  WORK ZONE  WORK ZONE  WORK ZONE  WORK ZONE  WORK ZONE  WORK ZONE  WORK ZONE */ -->
+                <!-- /* WORK ZONE  WORK ZONE  WORK ZONE  WORK ZONE  WORK ZONE  WORK ZONE  WORK ZONE */ -->
+                <!-- /* WORK ZONE  WORK ZONE  WORK ZONE  WORK ZONE  WORK ZONE */ -->
+                
+                
+
+            </div>  <!-- /.container -->
+            
+
+        </section>  <!-- /.section -> .reviews -->
+
+                        <!-- <a class="slid__btn  slid__btn--prev" href="">Prev</a> -->
+                        <!-- <a class="slid__btn  slid__btn--next" href="">Next</a> -->
+    
+                        <!-- <div class="slid__item">
+                            <a class="slid__inner  slid__inner--invisible" href="#"><img class="slid__photo" src="assets/images/reviews/tester01.png"></a>
+                            <a class="slid__inner" href="#"><img class="slid__photo" src="assets/images/reviews/tester02.png"></a>
+                            <a class="slid__inner  slid__inner--active" href="#"><img class="slid__photo  slid__photo--active" src="assets/images/reviews/tester03.png"></a>
+                            <a class="slid__inner" href="#"><img class="slid__photo" src="assets/images/reviews/tester04.png"></a>
+                            <a class="slid__inner  slid__inner--invisible" href="#"><img class="slid__photo" src="assets/images/reviews/tester05.png"></a>
+                        </div> -->
+                    
+                    <!-- <div class="slider"> -->
+        
+
+
+
+        <section class="section  sect" id="contact">
+            <div class="container">
+                <div class="contact">
+                    <div class="contact__column  contact__column--one">
+                        <div class="contact__inner">
+                            <div class="contact__title">Give Us A Good News</div>
+                            <!-- <div class="contact__header">
+                                <div class="section__title">Give Us A Good News</div>
+                            </div> -->
+    
+                            <form class="forms">
+                                <input class="f__input" type="text" name="user_name" 	placeholder="Name">
+                                <input class="f__input" type="email" name="user_email" 	placeholder="Email">
+                                <input class="f__input" type="text" name="user_subject" 	placeholder="Subject">
+                                <textarea class="f__input  f--f" placeholder="Your message" 	maxlength="300" name="user_message"></textarea>
+                            </form>
+        
+                            <div class="btn  btn--marginNone">Submit</div>
+                            
+                        </div>
+                    </div> <!-- /.contact__column -->
+    
+    
+                    <!-- <div class="contact__header">
+                        <div class="section__title">Give Us A Good News</div>
+                        <div class="section__title">Our Happy Client</div>
+                    </div> -->
+    
+                    <div class="contact__column  contact__column--two">
+                        <div class="contact__inner">
+                            <div class="contact__title">Our Happy Client</div>
+    
+                            <!-- <div class="contact__header">
+                                <div class="section__title">Our Happy Client</div>
+                            </div> -->
+                            
+                            <div class="client__company">
+                                <a class="company__logo" target="_blank" href="https://www.zara.com/"><img src="assets/images/firm_clients/client001.png"></a>
+                                <a class="company__logo" target="_blank" href="https://shop.mango.com/ru/ru/h/%D0%B6%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F"><img src="assets/images/firm_clients/client002.png"></a>
+                                <a class="company__logo" target="_blank" href="https://gb.saks.com/en-gb/?utm_source=redirect&utm_mediumcdn_redirect&utm_campaign=unknown_product_or_page"><img src="assets/images/firm_clients/client003.png"></a>
+                                <a class="company__logo" target="_blank" href="https://www.gucci.com/int/ru/?srsltid=AfmBOooA5jq0i6inhCXrzvwjN794uzPUSTMykT8fAtzpGeFA8jpu-bl7"><img src="assets/images/firm_clients/client004.png"></a>
+                                <a class="company__logo" target="_blank" href="https://www.calvinklein.co.uk/"><img src="assets/images/firm_clients/client005.png"></a>
+                                <a class="company__logo" target="_blank" href="https://www.nike.com/ru/"><img src="assets/images/firm_clients/client006.png"></a>
+                                <a class="company__logo" target="_blank" href="https://www.converse.com/country-language-selector"><img src="assets/images/firm_clients/client007.png"></a>
+                                <a class="company__logo" target="_blank" href="https://us.puma.com/us/en?srsltid=AfmBOopb2l6qpu-KqnwsDq5VLs2Lfss0cfGRvU7PhHuNk1IIeI_pY7vb"><img src="assets/images/firm_clients/client008.png"></a>
+                                <a class="company__logo" target="_blank" href="https://www.levi.com/US/en_US/?srsltid=AfmBOoqcKcaNwQd2OHMMMFhvKKvA7u7seam_hGLNirM3ikQqcR9pwieH"><img src="assets/images/firm_clients/client009.png"></a>
+                                <a class="company__logo" target="_blank" href="https://billabong.ru/"><img src="assets/images/firm_clients/client010.png"></a>
+                            </div>
+                            
+                        </div>
+                    </div> <!-- /.contact__column -->
+                </div>
+
+            </div>  <!-- /.container -->
+        </section>  <!-- /.section -> .contact -->
+
+        <footer class="footer  section--footer">
+            <div class="container">
+                <div class="footer__up">
+                    <div class="footer__column  footer__column--first">
+                        <div class="footer__logo">
+							<img class="logo__img" src="assets/images/logo_edges.png">
+							<div class="logo__name">tajam</div>
+						</div>
+                        <div class="footer__text">lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. Duis sed odio sit amet auctror a ornare odio non mauris vitae erat in elit
+						</div>
+                    </div>  <!-- /.footer__column 01 -->
+
+                    <div class="footer__column  footer__column--second">
+                        <div class="footer__title">Our Studio</div>
+						<div class="footer__contact">	
+							<div class="f__contact__item">
+								<img class="f__contact__icon" src="assets/images/footer/footer_address.png">
+								<div class="footer__text">Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres - Jakarta Barat 11480 - Indonesia</div>
+							</div>
+							<div class="f__contact__item">
+								<img class="f__contact__icon" src="assets/images/footer/footer_phone.png">
+								<div class="footer__text">(+62) 21-2224 3333</div>
+							</div>
+						</div> <!-- /.footer__contact -->
+                    </div>  <!-- /.footer__column 02 -->
+
+                    <div class="footer__column  footer__column--third">
+                        <div class="footer__title">Stay In Touch</div>
+						<div class="footer__social">
+							<form class="form__subscribe">
+								<input class="subscribe__inp" type="text" name="subscribe" placeholder="Subscribe our newsletter">
+								<button class="subscribe__btn" type="submit"><span>Subscribe</span><img class="subscribe__icon" src="assets/images/footer/footer_sub_btn.png"></button>
+							</form>
+							<div class="social__content">
+								<div class="soc__ellipse">
+									<a class="soc__el" href="#" target="_blank">
+										<i class="fab fa-facebook-f"></i>
+									</a>
+								</div>
+
+								<div class="soc__ellipse">
+									<a class="soc__el" href="#" target="_blank">
+										<i class="fab fa-twitter"></i>
+									</a>
+								</div>
+
+								<div class="soc__ellipse">
+									<a class="soc__el" href="#" target="_blank">
+										<i class="fab fa-instagram"></i>
+									</a>
+								</div>
+
+								<div class="soc__ellipse">
+									<a class="soc__el" href="#" target="_blank">
+										<i class="fab fa-pinterest-p"></i>
+									</a>
+								</div>
+
+								<div class="soc__ellipse">
+									<a class="soc__el" href="#" target="_blank">
+										<i class="fab fa-google-plus-g"></i>
+									</a>
+								</div>
+
+								<div class="soc__ellipse">
+									<a class="soc__el" href="#" target="_blank">
+										<i class="fab fa-youtube"></i>
+									</a>
+								</div>
+
+								<!-- <div class="soc__ellipse">
+									<a class="soc__el" href="#" target="_blank">
+										<i class="fab fa-tumblr"></i>
+									</a>
+								</div> -->
+
+							</div> <!-- /.social -->
+						</div> <!-- /.footer__social -->
+                    </div>  <!-- /.footer__column 03 -->
+                </div>  <!-- /.footer__up -->
+
+                <div class="footer__down  f_d--alignItCent">
+					<div class="footer__help">
+						<div class="help__text"><a href="#">Help</a></div>
+						<div class="help__text"><a href="#">Terms & Condition</a></div>
+						<div class="help__text"><a href="#">Privacy</a></div>
+					</div>
+
+					<div class="footer__copyright">Copyright © 2015 - <span>Tajam Creative</span></div>
+				</div>
+
+            </div>  <!-- /.container -->
+        </footer>  <!-- /.footer -> .00000 -->
+
+                                
+
+
+
+        <!-- <section class="section">
+            <div class="container">
+                <div class="section__header">
+                    <div class="section__title">Expertise</div>
+                    <div class="section__subtitle">Lorem ipsum dolor sit amet proin gravida nibh vel velit</div>
+                </div>
+
+            </div>  /.container -->
+            
+            <!-- <div class="section__footer">
+                <div class="section__text">Become part of our dream team, let’s join us ! </div>
+                <a class="btn" href="#">Load More</a>
+            </div>
+        </section>  /.section -> .00000 -->
+
+    </div>  <!-- /.page -->
+
+    <!-- Java Script -->
+    <!-- libraries -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script> -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
